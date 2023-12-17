@@ -22,7 +22,9 @@ namespace MyProgram
             {
                 case 'A':
                 case 'a':
-
+                    Console.WriteLine(MsgEnterValue);
+                    numOne = Convert.ToDecimal(Console.ReadLine());
+                    result = SquareArea(numOne);
                     break;
                 case 'B':
                 case 'b':
@@ -45,6 +47,11 @@ namespace MyProgram
             {
                 Console.WriteLine(MsgArea, result);
             }
+
+        }
+        public static decimal SquareArea(decimal side)
+        {
+            return side * side;
         }
     }
 }
