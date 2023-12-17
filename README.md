@@ -40,7 +40,7 @@
 
   ![image](img/branca_feature.png)
 
-- Anirem programant per completar les nostres tasques i una vegada que ya hem acabat una tasca, fem un commit i després un push al nostre repositori online a través d'una branca que no sigui el master. A l'hora de fer el push hem d'indicar la tasca que volem tancar amb un "close #(num tasca)", en aquest cas era la tasca 1, llavors seria "closes #1" al final del missatge del commit
+- Anirem programant per completar les nostres tasques i una vegada que ya hem acabat una tasca, fem un commit i després un push al nostre repositori online a través d'una branca que no sigui el master. A l'hora de fer el push hem d'indicar la tasca que volem tancar amb un "close #(num tasca)", en aquest cas era la tasca 1, llavors seria "closes #1" al final del missatge del commit.
 
   ![imatge](img/square_push.png)
 
