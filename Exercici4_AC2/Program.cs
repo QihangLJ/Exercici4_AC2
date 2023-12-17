@@ -36,7 +36,9 @@ namespace MyProgram
                     break;
                 case 'C':
                 case 'c':
-
+                    Console.WriteLine(MsgEnterValue);
+                    numOne = Convert.ToDecimal(Console.ReadLine());
+                    result = CircleArea(numOne);
                     break;
                 case 'D':
                 case 'd':
@@ -60,6 +62,10 @@ namespace MyProgram
         public static decimal RectangleArea(decimal sideOne, decimal sideTwo)
         {
             return sideOne * sideTwo;
+        }
+        public static decimal CircleArea(decimal radius)
+        {
+            return (decimal)Math.PI * radius * radius;
         }
     }
 }
