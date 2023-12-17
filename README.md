@@ -54,4 +54,11 @@
 
   ![imatge](img/tasca_finalitzat.png)
 
+- Així quedaria la nostra taula de tasques després d'haver realitzat totes les tasques.
+
+  ![image](img/tasques_completades.png)
+
+
+
+
   
