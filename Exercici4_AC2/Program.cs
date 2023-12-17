@@ -42,10 +42,15 @@ namespace MyProgram
                     break;
                 case 'D':
                 case 'd':
-
+                    Console.WriteLine(MsgEnterValue);
+                    numOne = Convert.ToDecimal(Console.ReadLine());
+                    Console.WriteLine(MsgEnterValue);
+                    numTwo = Convert.ToDecimal(Console.ReadLine());
+                    result = PentagonArea(numOne, numTwo);
                     break;
                 default:
-
+                    Console.WriteLine(MsgInvalid);
+                    menuSelected = false;
                     break;
             }
 
@@ -66,6 +71,10 @@ namespace MyProgram
         public static decimal CircleArea(decimal radius)
         {
             return (decimal)Math.PI * radius * radius;
+        }
+        public static decimal PentagonArea(decimal perimeter, decimal apothem)
+        {
+            return (perimeter * apothem) / 2;
         }
     }
 }
