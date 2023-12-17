@@ -28,7 +28,11 @@ namespace MyProgram
                     break;
                 case 'B':
                 case 'b':
-
+                    Console.WriteLine(MsgEnterValue);
+                    numOne = Convert.ToDecimal(Console.ReadLine());
+                    Console.WriteLine(MsgEnterValue);
+                    numTwo = Convert.ToDecimal(Console.ReadLine());
+                    result = RectangleArea(numOne, numTwo);
                     break;
                 case 'C':
                 case 'c':
@@ -52,6 +56,10 @@ namespace MyProgram
         public static decimal SquareArea(decimal side)
         {
             return side * side;
+        }
+        public static decimal RectangleArea(decimal sideOne, decimal sideTwo)
+        {
+            return sideOne * sideTwo;
         }
     }
 }
